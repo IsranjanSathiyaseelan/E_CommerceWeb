@@ -147,6 +147,3 @@ Base URL: `http://localhost:4000`
 - Set `VITE_BACKEND_URL` to deployed API URL.
 - Use secure secrets (JWT and database credentials) via hosting provider environment settings.
 
-## License
-
-ISC
