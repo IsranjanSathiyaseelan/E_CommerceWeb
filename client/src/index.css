@@ -4,6 +4,20 @@
  
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body,
+#root {
+    overflow-x: hidden;
+}
+
+body:focus,
+body:focus-visible,
+#root:focus,
+#root:focus-visible {
+    outline: none;
+    box-shadow: none;
 }
  
 * {
