@@ -18,6 +18,7 @@ import { AddProduct } from "./pages/seller/AddProduct";
 import { ProductList } from "./pages/seller/ProductList";
 import { Orders } from "./pages/seller/Orders";
 import { AnimatePresence, motion } from "framer-motion";
+import { Contact } from "./pages/Contact";
 
 const pageVariants = {
   initial: { opacity: 0, y: 16 },
@@ -90,6 +91,12 @@ const App = () => {
             <Route path="/products" element={
                 <AnimatedPage>
                   <AllProducts />
+                </AnimatedPage>
+              }
+            />
+            <Route path="/contact" element={
+                <AnimatedPage>
+                  <Contact />
                 </AnimatedPage>
               }
             />
