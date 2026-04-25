@@ -67,7 +67,7 @@ const Navbar = ({ isHomePage = false, scrolled = false }) => {
         </NavLink>
         <NavLink
           className={`font-medium tracking-wide transition-colors hover:opacity-80 ${isTransparent ? "text-white drop-shadow-[0_1px_3px_rgba(0,0,0,0.45)]" : "text-gray-700"}`}
-          to="/"
+          to="/contact"
         >
           Contact
         </NavLink>
@@ -180,11 +180,11 @@ const Navbar = ({ isHomePage = false, scrolled = false }) => {
             All Product
           </NavLink>
           {user && (
-            <NavLink to="/products" onClick={() => setOpen(false)}>
+            <NavLink to="/my-orders" onClick={() => setOpen(false)}>
               My Orders
             </NavLink>
           )}
-          <NavLink to="/" onClick={() => setOpen(false)}>
+          <NavLink to="/contact" onClick={() => setOpen(false)}>
             Contact
           </NavLink>
 
